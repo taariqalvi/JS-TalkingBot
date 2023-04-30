@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Talking Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hints">
+        <span style="font-weight: bold;">Try saying...</span><br><br>
+        <span>Hello, how are you</span><br>
+        <span>Hello, who are you</span><br>
+        <span>Hello, who am I</span><br>
+        <span>Hello, what is your name</span><br>
+        <span>Hello, do you like me</span><br>
+        <span>Hello, do you love me</span><br>
+        <span>Hello, what is love</span><br>
+        <span>Hello, are you a poet</span><br>
+        <span>Hello, open the Google</span><br>
+        <span>Hello, how is the weather today</span><br>
+        <span>Hello, read me some poem</span><br>
+    </div>
+
+    <div class="container">
+        <h1>Speech Recognition</h1>
+        <textarea id="speecharea" cols="30" rows="10"></textarea>
+        <!-- <button type="button" id="stopBtn">Stop Listening</button> -->
+    </div>
+
+    <div class="robot">
+        <img src="Images/robot.jpeg" id="robot_img" alt="Robot_Image">
+        <button type="button" id="speak">Let's Talk!</button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+    <!-- Speech to Text API direct Link: -->
+    <!-- <script src="https://code.responsivevoice.org/responsivevoice.js"></script> -->
+</body>
+
+</html>

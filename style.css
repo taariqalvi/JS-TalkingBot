@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hints {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: purple;
+    padding: 5px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    text-shadow: 2px 2px 4px red;
+}
+
+.container #stopBtn {
+    padding: 5px 10px;
+    background-color: green;
+}
+
+.container #stopBtn:hover {
+    background-color: lime;
+    cursor: pointer;
+}
+
+.container #speecharea {
+    font-size: 1.2rem;
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+
+.robot {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.robot #robot_img {
+    width: 100%;
+}
+
+.robot #speak {
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+    background-color: darkred;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.robot #speak:hover {
+    box-shadow: 2px 2px 4px aqua, -2px -2px 4px aqua;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .hints {
+        top: 100%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .container #speecharea {
+        font-size: 0.8rem;
+    }
+
+    .robot #robot_img {
+        width: 70%;
+    }
+
+    .robot #speak {
+        width: 100px;
+        font-size: 1rem;
+    }
+}
