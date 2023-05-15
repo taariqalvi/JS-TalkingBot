@@ -75,7 +75,7 @@ function determineWords(cmpSpeech, words) {
         window.open("https://www.google.com/");
     }
     if (words.includes("what is your name")) {
-        cmpSpeech.text = "my name is Neo, and I am an AI based robotic voice, just to facilitate you at my level best, but my capabilities are limited yet";
+        cmpSpeech.text = "my name is Smentha, and I am an AI based robotic voice, just to facilitate you at my level best, but my capabilities are limited yet";
     }
     if (words.includes("what is love")) {
         cmpSpeech.text = "love is the most beautiful phenomenon on the planet, it gives us reasons to live, and gives a hope too that why should we live";
