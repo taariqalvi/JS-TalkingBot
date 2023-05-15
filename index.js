@@ -30,7 +30,7 @@ speakBtn.addEventListener("click", () => {
 // Text to Speech:
 function computerSpeech(words) {
     const cmpSpeech = new SpeechSynthesisUtterance();
-    cmpSpeech.lang = "en-US";
+    cmpSpeech.lang = "en-GB";
     cmpSpeech.pitch = 1;
     cmpSpeech.volume = 1;
     cmpSpeech.rate = 1;
