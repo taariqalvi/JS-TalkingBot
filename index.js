@@ -81,7 +81,7 @@ function determineWords(cmpSpeech, words) {
         cmpSpeech.text = "love is the most beautiful phenomenon on the planet, it gives us reasons to live, and gives a hope too that why should we live";
     }
     if (words.includes("read me some poem")) {
-        cmpSpeech.text = "Ok sir please listen carefully, tonight is the night when one says I'm sorry, tonight is the night when the other has to say, so goes the story";
+        cmpSpeech.text = "Ok sir please listen carefully. Tonight is the night when one says I'm sorry, tonight is the night when the other has to say, so goes the story";
     }
 }
 
