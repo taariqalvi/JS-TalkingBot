@@ -71,7 +71,10 @@ function determineWords(cmpSpeech, words) {
         cmpSpeech.text = "would that I were, but I am not, I am just using some intellisense for your service";
     }
     if (words.includes("open the Google")) {
-        cmpSpeech.text = "opening Google for you, sir";
+        cmpSpeech.text = "You forget to say, please. Sir.";
+    }
+    if (words.includes("open the Google please")) {
+        cmpSpeech.text = "opening Google for you. Sir.";
         window.open("https://www.google.com/");
     }
     if (words.includes("what is your name")) {
