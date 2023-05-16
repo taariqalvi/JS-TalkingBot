@@ -68,7 +68,7 @@ function determineWords(cmpSpeech, words) {
         cmpSpeech.text = "Off course i love you. Love is in the air. Love is everywhere.";
     }
     if (words.includes("Are you a poet")) {
-        cmpSpeech.text = "Would that I were, but I am not, I am just using some intellisense for your service";
+        cmpSpeech.text = "Would that I were! But I am not! I am just using some intellisense for your service";
     }
     if (words.includes("Open the Google")) {
         cmpSpeech.text = "You forget to say please. Sir.";
