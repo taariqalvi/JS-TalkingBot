@@ -5,7 +5,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 
 const recognition = new SpeechRecognition();
 recognition.lang = "en-GB";
-// recognition.interimResults = true;
+recognition.interimResults = true;
 // recognition.continuous = true;
 
 recognition.addEventListener("result", function (event) {
@@ -53,7 +53,7 @@ function determineWords(cmpSpeech, words) {
         cmpSpeech.text = "I am fine, thank you, this is really very nice to meet you";
     }
     if (words.includes("who am I")) {
-        cmpSpeech.text = "you are my master, sir, and your name is taariq aalvee";
+        cmpSpeech.text = "You are my master, sir, and your name is taariq aalvee";
     }
     if (words.includes("who are you")) {
         cmpSpeech.text = "I am a simple robot, and your assisstant, sir";
