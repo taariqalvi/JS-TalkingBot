@@ -62,10 +62,10 @@ function determineWords(cmpSpeech, words) {
         cmpSpeech.text = "The weather looks fine today, for more details please link me with some weather API and I will serve you the best results";
     }
     if (words.includes("Do you like me")) {
-        cmpSpeech.text = "I ecactly don't know if you're my master or not, even then, yes, i like you, and i like your voice, and i like the way you are talking";
+        cmpSpeech.text = "I exactly don't know if you're my master or not. Even then! Yes! I like you. I like your voice. And I like the way you are talking";
     }
     if (words.includes("Do you love me")) {
-        cmpSpeech.text = "Off course i love you, love is in the air, and love is everywhere";
+        cmpSpeech.text = "Off course i love you. Love is in the air. Love is everywhere.";
     }
     if (words.includes("Are you a poet")) {
         cmpSpeech.text = "Would that I were, but I am not, I am just using some intellisense for your service";
